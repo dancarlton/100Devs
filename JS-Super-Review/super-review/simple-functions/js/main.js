@@ -39,3 +39,4 @@ function fuckAroundAndMathOut(n1, n2, n3, n4) {
         alert((product * n3) % n4)
     }
 }
+fuckAroundAndMathOut(5,4,3,2)
