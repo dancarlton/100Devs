@@ -7,11 +7,11 @@ num = num - 10
 console.log(num)
 //--- Medium
 //create a variable that holds a value from the input
-let myInput = Number(document.querySelector('#danceDanceRevolution').value)
+// let myInput = Number(document.querySelector('#danceDanceRevolution').value)
 //add 25 to that number
-myInput += 25
+// myInput += 25
 //alert that number
-alert(myInput)
+// alert(myInput)
 //--- Hard
 //create a variable that holds the h1
 let holdh1 = document.querySelector('h1')
@@ -19,5 +19,8 @@ let holdh1 = document.querySelector('h1')
 holdh1.addEventListener('click', addTwo)
 
 function addTwo(){
+    let myInput = Number(document.querySelector('#danceDanceRevolution').value)
+    myInput += 25
+
     console.log( num + myInput )
 }
